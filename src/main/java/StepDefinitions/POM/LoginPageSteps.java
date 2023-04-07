@@ -3,6 +3,8 @@ package StepDefinitions.POM;
 import io.cucumber.java.en.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import pages.LoginPage;
 
@@ -11,8 +13,12 @@ public class LoginPageSteps  {
     WebDriver driver;
     @Given("the user is on the login page")
     public void the_user_is_on_the_login_page() throws InterruptedException {
-        WebDriverManager.edgedriver().setup();
-        driver = new EdgeDriver();
+        WebDriverManager.chromedriver().setup();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
+        driver = new ChromeDriver(options);
+
+        //driver = new EdgeDriver();
         driver.get("https://example.testproject.io/web/");
         Thread.sleep(5000);
     }

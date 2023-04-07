@@ -1,4 +1,4 @@
-package StepDefinitions.others;
+package StepDefinitions.Others;
 
 import io.cucumber.java.en.*;
 
@@ -7,9 +7,6 @@ public class LoginSteps {
     @Given("user is on login page")
     public void user_is_on_login_page() {
         System.out.println("User is on Login Page");
-
-
-
     }
     @When("user enters username and password")
     public void user_enters_username_and_password() {

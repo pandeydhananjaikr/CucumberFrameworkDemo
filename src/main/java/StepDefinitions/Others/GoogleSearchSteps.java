@@ -1,13 +1,11 @@
-package StepDefinitions.others;
+package StepDefinitions.Others;
 
 import io.cucumber.java.en.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
 public class GoogleSearchSteps {
     WebDriver driver;

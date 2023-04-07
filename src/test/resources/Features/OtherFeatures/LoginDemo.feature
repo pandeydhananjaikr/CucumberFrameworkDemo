@@ -10,4 +10,5 @@ Feature: Test Login Fuction
     Examples:
     |username|password|
     |Dhananjai |12345   |
-    |Kumar     | 987654 |
+    |Kumar     |987654  |
+

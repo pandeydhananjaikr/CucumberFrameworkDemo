@@ -1,4 +1,4 @@
-package StepDefinitions.others;
+package StepDefinitions.Others;
 
 
 import io.cucumber.junit.Cucumber;
@@ -9,8 +9,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/Features/GoogleSearch.feature",
         glue = {"StepDefinitions"},
-        monochrome = true,
+        monochrome = false,
         plugin = {"pretty", "html:target/HTMLReports/report.html"}
+
 )
 public class TestRunner {
 
