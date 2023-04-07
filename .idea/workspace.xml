@@ -4,29 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8cbc5e7-9b43-426f-bb9b-cc8dc7311768" name="Changes" comment="a simple POM test created">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageFactory/HomePage_PF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageFactory/LoginPage_PF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StepDefinitions/Others/TestRunnerForBackgroundDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StepDefinitions/Others/TestRunnerForHooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StepDefinitions/Others/TestRunnerWithSingleTags.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StepDefinitions/PF/LoginSteps_PF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StepForBackground/BackgroundsDemoSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StepsForHooks/HooksDemoSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/FeatureWithTags/Tags.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/HooksDemo/HooksDemo.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/PFFetures/LoginDemoPF.feature" afterDir="false" />
+    <list default="true" id="e8cbc5e7-9b43-426f-bb9b-cc8dc7311768" name="Changes" comment="tag, hooks, background added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/StepDefinitions/Others/asdsad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StepDefinitions/POM/LoginPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StepDefinitions/POM/LoginPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StepDefinitions/others/GoogleSearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StepDefinitions/Others/GoogleSearchSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StepDefinitions/others/LoginDemoSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StepDefinitions/Others/LoginDemoSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StepDefinitions/others/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StepDefinitions/Others/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StepDefinitions/others/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StepDefinitions/Others/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/GoogleSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/OtherFeatures/GoogleSearch.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/OtherFeatures/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/LoginDemo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/OtherFeatures/LoginDemo.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/POMFeatures/LoginPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/POMFeatures/LoginPage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/demo1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/BackgroundDemo/BackgroundDemo.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
